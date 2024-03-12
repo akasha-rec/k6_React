@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'; //import ~ : 모듈형 프로그램
 import ReactDOM from 'react-dom/client';
 // css도 module처럼 import
 import './index.css';
 // App.js > module이자 component. 사용할 때는 tag처럼 = 사용자 정의 태그
-import App from './App';
+import App from './App'; //./App.js를 불러올 것이다.
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
