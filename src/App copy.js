@@ -2,14 +2,22 @@
 // import MainHeader from './01/MainHeader';
 // import Hello from './01/Hello';
 import './App.css';
-import MyClock from './01_1/MyClock';
+//import MyClock from './01_1/MyClock';
+import MyClockImage from './01_1/MyClockImage';
+import MyClockTime from './01_1/MyClockTime';
 
 function App() {
   return (
     // JSX 문법 사용
     <>
     <div className="App">
-    <MyClock />
+    {/* <MyClock /> */}
+    <MyClockImage />
+    <MyClockTime />
+    {/* <MainHeader /> */}
+    {/* <Hello />
+    <Hello />
+    <Hello /> */}
     </div>
     </>
   );

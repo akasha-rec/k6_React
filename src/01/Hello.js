@@ -12,6 +12,7 @@ function Hello() {
     // if (n % 2== 0) s = "짝수";
     // else s = "홀수";
     let x;
+
     return (
         <h1>
         <span style={st1}>Hello</span>
