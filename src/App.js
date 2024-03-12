@@ -1,17 +1,19 @@
 // svg(image)도 모듈처럼 갖고 와서 사용
-import logo from './logo.svg';
+import MainHeader from './01/MainHeader';
+import Hello from './01/Hello';
 import './App.css';
 
 function App() {
   return (
+    // JSX 문법 사용
+    <>
     <div className="App">
-      <header className="App-header">
-        <p>
-          K-digital 6기 이나영
-        </p>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <MainHeader />
+    <Hello />
+    <Hello />
+    <Hello />
     </div>
+    </>
   );
 }
 
