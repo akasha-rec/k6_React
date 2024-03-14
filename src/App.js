@@ -4,6 +4,7 @@
 // import MyClock from './01_1/MyClock';
 import HelloCss from './02/HelloCss';
 import './App.css';
+import { HiMiniBuildingLibrary } from "react-icons/hi2";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
                         bg-sky-300
                         '>
         <div>리액트 실습</div>
-        <div>홈</div>
+        <div><HiMiniBuildingLibrary className='text-3xl text-gray-800'/></div>
       </header>
       <main className='grow'>
       <HelloCss />
