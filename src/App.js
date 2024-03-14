@@ -10,7 +10,6 @@ function App() {
     // JSX 문법 사용
     <>
     <div className="App">
-    {/* <MyClock /> */}
     <HelloCss />
     </div>
     </>
