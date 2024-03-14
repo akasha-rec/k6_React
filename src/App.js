@@ -2,17 +2,34 @@
 // import MainHeader from './01/MainHeader';
 // import Hello from './01/Hello';
 // import MyClock from './01_1/MyClock';
+// import HelloCss from './02/HelloCss';
 import './App.css';
-import HelloCss from './02/HelloCss';
 
 function App() {
   return (
-    // JSX 문법 사용
-    <>
-    <div className="App">
-    <HelloCss />
+    <div className='flex flex-col 
+                    w-full max-w-screen-xl
+                    h-screen
+                    mx-auto
+                    overscroll-y-auto'>
+      <header className='flex justify-between items-center
+                        h-20 p-10
+                        text-xl font-bold text-indigo-600
+                        bg-sky-300
+                        '>
+        <div>리액트 실습</div>
+        <div>홈</div>
+      </header>
+      <main>
+        메인
+      </main>
+      <footer className='flex justify-center items-center
+                       h-20 p-10
+                       bg-sky-500
+                       text-white'>
+      @ 2024 leenayoung. All rights reserved.
+      </footer>
     </div>
-    </>
   );
 }
 
