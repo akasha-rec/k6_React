@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 
     background-color: black;
 }
@@ -16,4 +16,19 @@
 
 .ch1 {
     color: cyan;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .imgLogo{
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

@@ -2,7 +2,7 @@
 // import MainHeader from './01/MainHeader';
 // import Hello from './01/Hello';
 // import MyClock from './01_1/MyClock';
-// import HelloCss from './02/HelloCss';
+import HelloCss from './02/HelloCss';
 import './App.css';
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
         <div>리액트 실습</div>
         <div>홈</div>
       </header>
-      <main>
-        메인
+      <main className='grow'>
+      <HelloCss />
       </main>
       <footer className='flex justify-center items-center
                        h-20 p-10
