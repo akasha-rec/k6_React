@@ -19,7 +19,7 @@ function App() {
                         h-20 p-10
                         text-xl font-bold text-indigo-600
                         bg-sky-300
-                        '>
+                        scroll-auto'>
         <div>리액트 실습</div>
         <div><HiMiniBuildingLibrary className='text-3xl text-gray-800'/></div>
       </header>
