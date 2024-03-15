@@ -4,7 +4,7 @@
 // import MyClock from './01_1/MyClock';
 // import HelloCss from './02/HelloCss';
 import './App.css';
-import MyDiv1 from './03/MyDiv1';
+import MyDiv1 from './03_1/MyDiv1';
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 
 function App() {
