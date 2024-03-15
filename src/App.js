@@ -5,7 +5,7 @@
 // import HelloCss from './02/HelloCss';
 // import MyDiv1 from './03_1/MyDiv1';
 import './App.css';
-import MyList from './04/MyList';
+import MyListMain from './04/MyListMain';
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
       <main className='grow flex flex-col 
                       justify-center items-center'
                       >
-      <MyList />
+      <MyListMain />
       </main>
       <footer className='flex justify-center items-center
                        h-20 p-10
