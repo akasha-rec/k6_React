@@ -2,8 +2,9 @@
 // import MainHeader from './01/MainHeader';
 // import Hello from './01/Hello';
 // import MyClock from './01_1/MyClock';
-import HelloCss from './02/HelloCss';
+// import HelloCss from './02/HelloCss';
 import './App.css';
+import MyDiv1 from './03/MyDiv1';
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 
 function App() {
@@ -21,8 +22,10 @@ function App() {
         <div>리액트 실습</div>
         <div><HiMiniBuildingLibrary className='text-3xl text-gray-800'/></div>
       </header>
-      <main className='grow'>
-      <HelloCss />
+      <main className='grow flex flex-col 
+                      justify-center items-center'
+                      >
+        <MyDiv1 />
       </main>
       <footer className='flex justify-center items-center
                        h-20 p-10
