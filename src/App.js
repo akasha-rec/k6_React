@@ -4,8 +4,9 @@
 // import MyClock from './01_1/MyClock';
 // import HelloCss from './02/HelloCss';
 // import MyDiv1 from './03_1/MyDiv1';
+// import MyListMain from './04/MyListMain';
 import './App.css';
-import MyListMain from './04/MyListMain';
+import BoxOfficeTb from './05/BoxOfficeTb';
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
       <main className='grow flex flex-col 
                       justify-center items-center'
                       >
-      <MyListMain />
+      <BoxOfficeTb />
       </main>
       <footer className='flex justify-center items-center
                        h-20 p-10
