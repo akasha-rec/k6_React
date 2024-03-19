@@ -6,7 +6,7 @@
 // import MyDiv1 from './03_1/MyDiv1';
 // import MyListMain from './04/MyListMain';
 import './App.css';
-import BoxOfficeTb from './05/BoxOfficeTb';
+import BoxOfficeTb from './05_1/BoxOfficeTb';
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 
 function App() {
