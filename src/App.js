@@ -6,9 +6,9 @@
 // import MyDiv1 from './03_1/MyDiv1';
 // import MyListMain from './04/MyListMain';
 // import BoxOfficeTb from './05_1/BoxOfficeTb';
-import Lotto from './06/Lotto';
+// import Lotto from './06/Lotto';
 import './App.css';
-import FoodCard from './07/FoodCard';
+import FoodMain from './07/FoodMain';
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
       <main className='grow flex flex-col 
                       justify-center items-center'
                       >
-      <FoodCard />
+      <FoodMain />
       </main>
       <footer className='flex justify-center items-center
                        h-20 p-10
