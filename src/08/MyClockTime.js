@@ -11,7 +11,7 @@ function MyClockTime() {
             setCurrentTime(new Date())
         }, 1000)
         console.log("[] => ", currentTime)
-
+//이건 어떤 차이를 만드는 건지 잘 와닿지 않아
         return () => {clearInterval(t)}
     }, []);
     
