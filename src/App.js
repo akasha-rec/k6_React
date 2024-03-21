@@ -7,8 +7,9 @@
 // import MyListMain from './04/MyListMain';
 // import BoxOfficeTb from './05_1/BoxOfficeTb';
 // import Lotto from './06/Lotto';
-import './App.css';
-import FoodMain from './07/FoodMain';
+// import FoodMain from './07/FoodMain';
+// import './App.css';
+import MyClock from './08/MyClock';
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
       <main className='grow flex flex-col 
                       justify-center items-center'
                       >
-      <FoodMain />
+      <MyClock />
       </main>
       <footer className='flex justify-center items-center
                        h-20 p-10
