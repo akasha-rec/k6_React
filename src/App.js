@@ -12,7 +12,8 @@
 // import MyClock from './08/MyClock';
 // import TrafficMain from "./09/TrafficMain";
 // import RefVal from "./10/RefVal";
-import RefInput from "./10/RefInput";
+// import RefInput from "./10/RefInput";
+import BoxOffice from "./05/BoxOffice";
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
       <main className='grow flex flex-col 
                       justify-center items-center'
                       >
-      <RefInput />
+      <BoxOffice />
       </main>
       <footer className='flex justify-center items-center
                        h-20 p-10

@@ -1,7 +1,8 @@
-export default function TailInput({type, inputRef, ph}) {
+export default function TailInput({type, inputRef, ph, handleChange}) {
   return (
     <input type={type}
-            ref = {inputRef}
+            ref = {inputRef} //ref 변수를 속성값으로
+            onChange={handleChange}
             id="first_name" 
             className="bg-gray-50 border
                          border-gray-300 text-gray-900 
