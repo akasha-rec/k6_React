@@ -1,6 +1,7 @@
-export default function TailInput({type, ph}) {
+export default function TailInput({type, ref, ph}) {
   return (
     <input type={type}
+            ref = {ref}
             id="first_name" 
             className="bg-gray-50 border
                          border-gray-300 text-gray-900 
