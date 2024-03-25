@@ -38,7 +38,7 @@ export default function RefInput() {
         <div className="w-full flex justify-center items-center">
         <div className="w-1/2 flex justify-center items-center">
         <TailInput type="text"
-                inputRef = {inputRef}
+                inputRef = {inputRef} //TailInput에서 넘어온 inputRef
                 ph = "값 입력" />
         </div>
         <div className="w-1/2 flex justify-center items-center">
