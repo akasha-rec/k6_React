@@ -10,7 +10,7 @@ export default function TailButton({caption, handleClick, color}) {
     "orange" : "bg-orange-800"
   }
 
-  const bColor = `px-4 py-2 m-4 rounded-md ${colorObj[color]} ${hoverObj[color]} text-white` 
+  const bColor = `px-4 py-2 m-2 w-full rounded-md ${colorObj[color]} ${hoverObj[color]} text-white` 
   return (
     <button className= {bColor}
                  onClick={handleClick}>
